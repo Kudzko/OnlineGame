@@ -25,7 +25,7 @@ import com.iceman.formula_one.service.game.RaceTrackService;
  * A class in which implemented main game logic.
  */
 @Service
-@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
 @Getter
 @Setter
 public class RaceTrackServiceImpl implements RaceTrackService {
